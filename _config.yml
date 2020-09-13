@@ -1,9 +1,11 @@
-theme: "minimal-mistakes-jekyll"
+theme: minimal-mistakes-jekyll
+remote_theme: minimal-mistakes-jekyll
+
+description: Rachel's Blog
+show_downloads: false
 
 plugins:
   - jekyll-include-cache
   - jekyll-remote-theme
 
 minimal_mistakes_skin: "air"
-
-remote_theme: minimal-mistakes-jekyll
