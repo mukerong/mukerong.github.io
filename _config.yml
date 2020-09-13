@@ -1,0 +1,9 @@
+theme: "minimal-mistakes-jekyll"
+
+plugins:
+  - jekyll-include-cache
+  - jekyll-remote-theme
+
+minimal_mistakes_skin: "air"
+
+remote_theme: minimal-mistakes-jekyll
