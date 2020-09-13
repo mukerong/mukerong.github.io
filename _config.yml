@@ -1,6 +1,7 @@
 theme: minimal-mistakes-jekyll
-remote_theme: minimal-mistakes-jekyll
+remote_theme: benbalter/retlab
 
+title: Rachel's Blog
 description: Rachel's Blog
 show_downloads: false
 
@@ -9,3 +10,12 @@ plugins:
   - jekyll-remote-theme
 
 minimal_mistakes_skin: "air"
+
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
